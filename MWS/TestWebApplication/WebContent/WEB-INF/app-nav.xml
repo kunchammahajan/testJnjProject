@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<app-nav xmlns="http://www.webmethods.com/schema/appNavRule.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.webmethods.com/schema/appNavRule.xsd http://www.webmethods.com/schema/appNavRule.xsd">
+	<resource-bundle>caf.war.TestWebApplication.AppResource</resource-bundle>
+	<page>
+		<id>/TestWebApplication</id>
+		<title>Home</title>
+		<url>/TestWebApplication</url>
+	</page></app-nav>

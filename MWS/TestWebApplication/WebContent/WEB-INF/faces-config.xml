@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+	<application>
+		<message-bundle>caf.war.TestWebApplication.AppResources</message-bundle>
+		<locale-config>
+			<default-locale>en_US</default-locale>
+		</locale-config>
+	</application>
+
+	<managed-bean>
+		<description>appnavbean</description>
+		<managed-bean-name>TestWebApplicationAppNav</managed-bean-name>
+		<managed-bean-class>caf.war.TestWebApplication.TestWebApplicationAppNav</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+		<managed-property>
+			<property-name>configFile</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>/WEB-INF/app-nav.xml</value>
+		</managed-property>
+	</managed-bean></faces-config>

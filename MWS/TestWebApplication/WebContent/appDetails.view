@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <property name="pageManagedBean" value="AppDetailsView" />
+	<property name="appNavBean" value="TestWebApplicationAppNav" />
+    <control component-type='com.webmethods.caf.faces.output.ErrorMessages' renderer-type='com.webmethods.caf.faces.output.ErrorMessages'>
+        <property name='id' value='messages' />
+    </control>
+	<control component-type='com.webmethods.caf.faces.command.CommandForm' renderer-type='com.webmethods.caf.faces.Form'>
+    	<property name='id' value='defaultForm' />
+    	<property name='defaultFocus' value='_first' />
+  	</control>
+</view>
